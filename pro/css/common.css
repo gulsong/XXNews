@@ -1,0 +1,155 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* head */
+
+.head {
+    height: 1.59rem;
+    border-bottom: solid 1px #f0f0f0;
+}
+
+
+/* search */
+
+.search {
+    padding: 0.11rem 0.27rem;
+    height: 0.73rem;
+    background: #4b5cc4;
+}
+
+.searchCon {
+    padding-top: 0.2rem;
+    height: 0.51rem;
+    background: #ffffff;
+    border-radius: 0.06rem;
+}
+
+.searchCon i,
+.searchCon span {
+    float: left;
+}
+
+.searchCon .icon-sousuo {
+    margin-left: 0.23rem;
+    font-size: 0.24rem;
+    color: #707070;
+}
+
+.searchCon span {
+    margin-left: 0.11rem;
+    width: 6rem;
+    color: #111111;
+    font-size: 0.26rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* nav_lists */
+
+.head_nav {
+    position: relative;
+}
+
+.nav_lists {
+    overflow-x: auto;
+}
+
+.nav_lists ul {
+    width: 200%;
+}
+
+.nav_lists ul li {
+    float: left;
+    padding: 0 0.19rem;
+    line-height: 0.64rem;
+    font-size: 0.29rem;
+}
+
+.nav_lists ul li a {
+    color: #111111;
+}
+
+.nav_lists ul .bingo {
+    font-size: 0.32rem;
+}
+
+.nav_lists ul .bingo a {
+    color: #4b5cc4;
+}
+
+.list_icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0.74rem;
+    height: 0.64rem;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    line-height: 0.64rem;
+}
+
+.list_icon icon-liebiao {
+    font-size: 0.24rem;
+    color: #111111;
+}
+
+
+/* contaier */
+
+.container {
+    flex: 1;
+    overflow-y: auto;
+}
+
+
+/* foot */
+
+.foot {
+    height: 0.79rem;
+    background: #f7f7f7;
+    border-top: solid 1px #f0f0f0;
+}
+
+.foot_nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.foot_nav li {
+    flex: 1;
+}
+
+.foot_nav li a {
+    display: flex;
+    height: 100%;
+    color: #111111;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot_nav li a .iconfont {
+    font-size: 0.36rem;
+    line-height: 1;
+}
+
+.foot_nav li a span {
+    margin-top: 0.06rem;
+    font-size: 0.16rem;
+    line-height: 1;
+}
+
+.foot_nav .foot_bingo a {
+    color: #4b5cc4;
+}

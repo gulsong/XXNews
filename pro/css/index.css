@@ -1,0 +1,62 @@
+/* container */
+
+.container {
+    padding: 0 0.27rem;
+}
+
+.con {
+    padding-top: 0.26rem;
+    border-bottom: solid 1px #f0f0f0;
+}
+
+.con h1 {
+    font-size: 0.32rem;
+    line-height: 0.44rem;
+    color: #111111;
+}
+
+.con>img {
+    margin-top: 0.08rem;
+    width: 100%;
+}
+
+.info {
+    padding-top: 0.15rem;
+    padding-bottom: 0.24rem;
+}
+
+.hot {
+    float: left;
+}
+
+.hot i {
+    float: left;
+    width: 0.35rem;
+    height: 0.26rem;
+    background: url(../img/hot.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hot span {
+    float: left;
+    font-size: 0.2rem;
+    color: #707070;
+    line-height: 1;
+}
+
+.hot span:nth-of-type(1) {
+    margin-left: 0.09rem;
+    margin-right: 0.17rem;
+}
+
+.hot span:nth-of-type(3) {
+    margin-left: 0.15rem;
+}
+
+.err {
+    float: right;
+    width: 0.32rem;
+    height: 0.23rem;
+    background: url(../img/err.jpg) no-repeat;
+    background-size: cover;
+}

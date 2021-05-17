@@ -1,0 +1,77 @@
+/* container */
+
+.container {
+    background: #f0f0f0;
+}
+
+.con {
+    margin-bottom: 0.11rem;
+    background: #ffffff;
+}
+
+.con>img {
+    width: 100%;
+}
+
+.info {
+    padding: 0.18rem 0.27rem;
+}
+
+.persion_info {
+    float: left;
+    line-height: 0.65rem;
+}
+
+.persion_info>img {
+    float: left;
+    width: 0.65rem;
+}
+
+.persion_info h2 {
+    float: left;
+    margin-left: 0.15rem;
+    font-size: 0.24rem;
+    color: #111111;
+}
+
+.persion_info span {
+    float: left;
+    margin-left: 0.14rem;
+    margin-right: 0.18rem;
+    font-size: 0.18rem;
+    color: #707070;
+}
+
+.persion_info i {
+    float: left;
+    font-size: 0.24rem;
+    color: #4b5cc4;
+}
+
+.talk {
+    float: right;
+    padding-top: 0.15rem;
+}
+
+.talk .iconfont {
+    float: left;
+}
+
+.talk .icon-duihua {
+    font-size: 0.36rem;
+    color: #111111;
+}
+
+.talk span {
+    float: left;
+    margin-left: 0.11rem;
+    margin-right: 0.49rem;
+    font-size: 0.16rem;
+    color: #111111;
+}
+
+.talk .icon-shenglve {
+    margin-right: 0.08rem;
+    font-size: 0.1rem;
+    color: #111111;
+}

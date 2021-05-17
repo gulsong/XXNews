@@ -1,0 +1,75 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+ul,
+ol,
+dl,
+dt,
+dd,
+li,
+table,
+form,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+img,
+fieldset {
+    border: 0;
+}
+
+a,
+input {
+    outline: none;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+img {
+    display: block;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.clean::after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
